@@ -163,7 +163,7 @@
                             <div class="item">
 				<p class="type">M2CR</p>
                                 <h3 class="title"><a href="https://projets-lium.univ-lemans.fr/m2cr/">Multimodal Multilingual Continuous Representation for Human Language Understanding</a></h3>
-                                <p class="advisors"><strong>Organizators:</strong> Joost van de weiger,  Loïc barrault,  Yoshua bengio</p>
+                                <p class="advisors"><strong>Organizator:</strong> Joost VAN DE WEIJER,  Loïc BARRAULT,  Yoshua BENGIO </p>
                                 <p id="tfm" class="summary" style="display: none;"><strong>Abstract:</strong> This project is dedicated to the creation of a unified neural architecture for multimodal and multilingual human language understanding</p>
                                 <p><a class="more-link" onclick="myFunction('tfm')" href="javascript:void(0);"><i id="b_tfm" class="fa fa-plus"></i> Find out more</a></p>
                             </div><!--//item-->
