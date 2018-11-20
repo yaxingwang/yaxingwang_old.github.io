@@ -69,11 +69,21 @@
                     <div class="section-inner">
                         <h2 class="heading">Latest News</h2>
                         <div class="content">
-
-
+			    <div class="item">
+                              <h3 class="title"> 1 paper is accepted by NIPS2018, Montréal, CANADA. 
+                            </div><!--//item-->
 
 			    <div class="item">
-                              <h3 class="title"> 1 paper is acceted by CVPR2018,  Salt Lake,  US. 
+                              <h3 class="title"> 1 paper is accepted by ECCV2018,  Munich, Germany. 
+                            </div><!--//item-->
+
+			    <div class="item">
+                              <h3 class="title"> Attended the international conference CVPR 2018, Salt Lake City, US. 
+                            </div><!--//item-->
+                            
+
+			    <div class="item">
+                              <h3 class="title"> 1 paper is accepted by CVPR2018,  Salt Lake City,  US. 
                             </div><!--//item-->
                             
 
@@ -82,11 +92,11 @@
 
 
 			    <div class="item">
-                              <h3 class="title"> Attended the international conference ICLR 2017,Toulon , France. 
+                              <h3 class="title"> Attended the international conference ICLR 2017, Toulon, France. 
                             </div><!--//item-->
 
 			    <div class="item">
-                              <h3 class="title"> 1 paper is accepted by workshop NIPS 2016, Barcelona, Spain. 
+                              <h3 class="title"> 1 paper is accepted at a workshop NIPS 2016, Barcelona, Spain. 
                             </div><!--//item-->
 			    
                             
@@ -99,7 +109,21 @@
                         <h2 class="heading">Conferences</h2>
                         <div class="content">
 
-                        <!-- ICPR 2018 -->
+                        <!-- NIPS 2018 -->
+                        <div class="item">
+                                <h3 class="title">Memory Replay GANs: learning to generate images from new categories without forgetting</h3>
+                                <!--<h3 class="desc"> <a href="https://arxiv.org/pdf/1805.01677.pdf"> [PDF] </a> <a href="https://github.com/yaxingwang/Transferring-GANs"> [Code] </a> </h3> -->
+                                <ul class="social list-inline">
+                                        <li><a href="https://arxiv.org/pdf/1809.02058.pdf"><i class="fa fa-file-pdf-o"></i></a></li>
+                                        <li><a href="https://arxiv.org/abs/1809.02058"><i class="fa fa-github"></i></a></li>
+                                    </ul> 
+                                <p class="authors"><strong>Authors:</strong>Chenshen Wu, Luis Herranz, Xialei Liu, Yaxing Wang, Joost van de Weijer, Bogdan Raducanu </p>
+                                <p class="conference">ECCV2018</p>
+                                <p id="Memory Replay GANs" class="abstract" style="display: none;"><strong>Abstract:</strong>Previous works on sequential learning address the problem of forgetting in discriminative models. In this paper we consider the case of generative models. In particular, we investigate generative adversarial networks (GANs) in the task of learning new categories in a sequential fashion. We first show that sequential fine tuning renders the network unable to properly generate images from previous categories (i.e. forgetting). Addressing this problem, we propose Memory Replay GANs (MeRGANs), a conditional GAN framework that integrates a memory replay generator. We study two methods to prevent forgetting by leveraging these replays, namely joint training with replay and replay alignment. Qualitative and quantitative experimental results in MNIST, SVHN and LSUN datasets show that our memory replay approach can generate competitive images while significantly mitigating the forgetting of previous categories. </p>
+                                <p><a class="more-link" onclick="myFunction('Memory Replay GANs')" href="javascript:void(0);"><i id="Memory Replay GANs" class="fa fa-plus"></i> Find out more</a></p>
+                            </div><!--//item-->
+
+                        <!-- ECCV 2018 -->
                         <div class="item">
                                 <h3 class="title">Transferring GANs: generating images from limited data</h3>
                                 <!--<h3 class="desc"> <a href="https://arxiv.org/pdf/1805.01677.pdf"> [PDF] </a> <a href="https://github.com/yaxingwang/Transferring-GANs"> [Code] </a> </h3> -->
@@ -108,7 +132,7 @@
                                         <li><a href="https://github.com/yaxingwang/Transferring-GANs"><i class="fa fa-github"></i></a></li>
                                     </ul> 
                                 <p class="authors"><strong>Authors:</strong>Yaxing Wang, Chenshen Wu, Luis Herranz, Joost van de Weijer, Abel Gonzalez-Garcia, Bogdan Raducanu </p>
-                                <p class="conference">under review</p>
+                                <p class="conference">ECCV2018</p>
                                 <p id="transfer GAN" class="abstract" style="display: none;"><strong>Abstract:</strong> Transferring the knowledge of pretrained networks to new domains by means of finetuning is a widely used practice for applications based on discriminative models. To the best of our knowledge this practice has not been studied within the context of generative deep networks. Therefore, we study domain adaptation applied to image generation with generative adversarial networks. We evaluate several aspects of domain adaptation, including the impact of target domain size, the relative distance between source and target domain, and the initialization of conditional GANs. Our results show that using knowledge from pretrained networks can shorten the convergence time and can significantly improve the quality of the generated images, especially when the target data is limited. We show that these conclusions can also be drawn for conditional GANs even when the pretrained model was trained without conditioning. Our results also suggest that density may be more important than diversity and a dataset with one or few densely sampled classes may be a better source model than more diverse datasets such as ImageNet or Places.</p>
                                 <p><a class="more-link" onclick="myFunction('transfer GAN')" href="javascript:void(0);"><i id="transfer GAN" class="fa fa-plus"></i> Find out more</a></p>
                             </div><!--//item-->
@@ -163,7 +187,7 @@
                             <div class="item">
 				<p class="type">M2CR</p>
                                 <h3 class="title"><a href="https://projets-lium.univ-lemans.fr/m2cr/">Multimodal Multilingual Continuous Representation for Human Language Understanding</a></h3>
-                                <p class="advisors"><strong>Organizator:</strong> Joost VAN DE WEIJER,  Loïc BARRAULT,  Yoshua BENGIO </p>
+                                <p class="advisors"><strong>Organizators:</strong> Joost van de Weiger,  Loïc Barrault,  Yoshua Bengio</p>
                                 <p id="tfm" class="summary" style="display: none;"><strong>Abstract:</strong> This project is dedicated to the creation of a unified neural architecture for multimodal and multilingual human language understanding</p>
                                 <p><a class="more-link" onclick="myFunction('tfm')" href="javascript:void(0);"><i id="b_tfm" class="fa fa-plus"></i> Find out more</a></p>
                             </div><!--//item-->
@@ -178,12 +202,12 @@
                         <div class="content">
                             <div class="item">
                                 <h3 class="title">Support researcher - <span class="place"><a href="http://www.cvc.uab.es">Computer Vision Center</a></span> <span class="year">(Sep 2015 - Now)</span></h3>
-                                <p>Collaborate within the Learning and Machine Perception (LAMP) groups at different research projects.</p>
+                                <p>Collaborate with the Learning and Machine Perception (LAMP) groups at different research projects.</p>
                             </div><!--//item-->
                             
                             <div class="item">
                                 <h3 class="title">Hands-on DL with MatConvNet - <span class="place"><a href="http://germanros.net/online-courses/hands-on-dl/"> Hands-on DL</a></span> <span class="year">(12. 2015 - 1. 2016)</span></h3>
-                                <p>Collaborate within researchers in CVC </p>
+                                <p>Collaborate with researchers in CVC </p>
                             </div><!--//item-->
 
                             <div class="item">
@@ -200,7 +224,7 @@
                     <div class="section-inner">
                         <h2 class="heading">Bio</h2>
                         <div class="content">
-                            <p>I completed M.Sc. degrees in Signal Processing  from the ZhengZhou University (ZZU). Currently, I am pursuing the Ph.D. degree under the supervision of Dr. Joost van de Weijer starting in 2015. I have worked on a wide variety of projects including images for Encoder-deconder, Transfer Learning, Domain Adaptation, Lifelong Learning.</p>
+                            <p>I completed M.Sc. degrees in Signal Processing  from the ZhengZhou University (ZZU). Currently, I am pursuing the Ph.D. degree under the supervision of Dr. Joost van de Weijer starting in 2015. I have worked on a wide variety of projects including images for Encoder-decoder, Transfer Learning, Domain Adaptation, Lifelong Learning.</p>
 
                         </div><!--//content-->
                     </div><!--//section-inner-->                 
@@ -288,7 +312,7 @@
                                 <div class="item">
                                     <h3 class="level-title">C, C++<span class="level-label">Used it</span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="40%">
+                                        <div class="level-bar-inner" data-level="20%">
                                         </div>                                      
                                     </div><!--//level-bar-->                                 
                                 </div><!--//item-->
